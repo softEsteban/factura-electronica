@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootElement>
+  <!-- Datos del emisor del documento -->
+  <Emisor>
+    <!-- Detalles del emisor (nombres, dirección, identificación, etc.) -->
+  </Emisor>
+
+  <!-- Datos del receptor del documento -->
+  <Receptor>
+    <!-- Detalles del receptor (nombres, dirección, identificación, etc.) -->
+  </Receptor>
+
+  <!-- Otros datos del documento -->
+  <DatosDocumento>
+    <!-- Detalles específicos del tipo de documento (factura, nota crédito, etc.) -->
+  </DatosDocumento>
+
+  <!-- Detalles de los items del documento -->
+  <Items>
+    <!-- Detalles de cada item del documento (producto, cantidad, valor, etc.) -->
+  </Items>
+
+  <!-- Otros elementos y secciones del documento según sea necesario -->
+  <OtroElemento>
+    <!-- Contenido del elemento -->
+  </OtroElemento>
+</rootElement>
