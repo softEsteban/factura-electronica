@@ -1,5 +1,11 @@
-// npm install axios xml2js
+// npm install axios
+// npm install xml2js
 // npm install xmlbuilder2
+// npm install express
+// npm install swagger-ui-express
+// npm install swagger-jsdoc
+// npm install nodemon
+
 const fs = require("fs");
 const axios = require("axios");
 const { parseStringPromise, XMLBuilder } = require("xml2js");
@@ -54,8 +60,6 @@ function generarXMLFactura(datosFactura) {
 
   return xmlFactura;
 }
-
-
 
 // Generate a timestamp-based stamp for the filename
 const timestamp = new Date().getTime();

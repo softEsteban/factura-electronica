@@ -38,6 +38,13 @@ Sublime - Editor de código y archivos
 Postman - Peticiones HTTP
 SoapUI - Peticiones SOAP
 
+### Generación del XML
+
+1. Definición de los endpoints y payloads de la API
+2. Validar los datos al realizar una petición que vienen en el JSON
+
+TODO -> Extract and define the Invoice Request with the required and optional data
+
 ### Envío de XML por SOAPUI
 
 ### Recepción y desempaquetado de Acuse de recibo enviado por la DIAN
