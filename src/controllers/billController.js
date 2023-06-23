@@ -16,5 +16,5 @@ const sendBill = (req, res) => {
 // Export the controller functions
 module.exports = {
   sendBill,
-  getTest,
+  // getTest,
 };

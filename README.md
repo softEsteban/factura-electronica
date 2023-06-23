@@ -31,17 +31,31 @@
 
 4. Es importante ser la habilitación para
 
-### Herramientas para trabajar con APIDIAN
+### Herramientas para trabajar
 
 VSCode - Editor de código
 Sublime - Editor de código y archivos
 Postman - Peticiones HTTP
 SoapUI - Peticiones SOAP
 
-### Generación del XML
+### Flujo de la factura electrónica
 
 1. Definición de los endpoints y payloads de la API
 2. Validar los datos al realizar una petición que vienen en el JSON
+3. Crear varibales e instancias a partir del DTO que entra
+
+4. Pasar los datos a la función createXML()
+5. Crear nueva instancia de un DOMDocument
+6. Pasar los datos requeridos al template que corresponda (Factura, nota crédito o débito, Attached document)
+7. Renderizar los datos en el DOMDocument
+
+8. Instanciar la clase SignInvoice e inicializarla (se debe firmar la factura y la petición)
+9. Instanciar la clase SendTestAsync e inicializarla
+
+10. Asignar el contenido del archivo a enviar y firmarlo con el algoritmo XADES-EPES mediante el método sign
+11. Crear y firmar la petición a enviar a la Dian mediante el método signToSend
+
+12. Recibir el response de la Dian y adjuntarlo a la respuesta de la API
 
 TODO -> Extract and define the Invoice Request with the required and optional data
 
